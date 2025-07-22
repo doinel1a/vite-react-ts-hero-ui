@@ -33,7 +33,7 @@
       "~/*": ["./*"]
     }
   },
-  "include": ["src", ".eslintrc.cjs", "**/*.tsx", "**/*.cjs", "**/*.js"],
+  "include": ["src", "eslint.config.js", "**/*.tsx", "**/*.cjs", "**/*.js"],
   "exclude": ["node_modules"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

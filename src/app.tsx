@@ -17,7 +17,7 @@ function App() {
           <main className='flex h-full flex-col items-center justify-center'>
             <GithubCorner
               title='Get started on GitHub'
-              url='https://github.com/doinel1a/vite-react-ts-shadcn-ui'
+              url='https://github.com/doinel1a/vite-react-ts-hero-ui'
             />
             <Counter />
           </main>
