@@ -6,5 +6,5 @@
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true
   },
-  "include": ["_config.ts", "hero.ts", "vite.config.ts"]
+  "include": ["hero.ts", "vite.config.ts"]
 }

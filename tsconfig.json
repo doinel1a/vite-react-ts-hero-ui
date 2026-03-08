@@ -35,6 +35,7 @@
   },
   "include": [
     "src",
+    "__tests__",
     "eslint.config.ts",
     "**/*.tsx",
     "**/*.cjs",
@@ -42,7 +43,8 @@
     "prettier.config.ts",
     "postcss.config.ts",
     "lint-staged.config.ts",
-    "commitlint.config.ts"
+    "commitlint.config.ts",
+    "playwright.config.ts"
   ],
   "exclude": ["node_modules"],
   "references": [{ "path": "./tsconfig.node.json" }]
