@@ -1,7 +1,7 @@
 import { heroui } from '@heroui/theme';
 
 // based on shadcn's styles
-const heroUIStyleOverride = {
+const config = {
   layout: {
     disabledOpacity: '0.5', // shadcn: 0.9
     radius: {
@@ -17,4 +17,4 @@ const heroUIStyleOverride = {
   }
 };
 
-export default heroui(heroUIStyleOverride);
+export default heroui(config);
