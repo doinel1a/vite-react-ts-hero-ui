@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Button } from '@heroui/button';
 import { Dropdown, DropdownItem, DropdownMenu, DropdownTrigger } from '@heroui/dropdown';
 import { useTheme } from '@heroui/use-theme';
