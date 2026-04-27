@@ -2,8 +2,8 @@ import type { PropsWithChildren } from 'react';
 
 import HeroUiProvider from './hero-ui';
 
-type TRootProvider = PropsWithChildren;
+type TRootProvider = Readonly<PropsWithChildren>;
 
-export default function RootProvider({ children }: Readonly<TRootProvider>) {
+export default function RootProvider({ children }: TRootProvider) {
   return <HeroUiProvider>{children}</HeroUiProvider>;
 }
