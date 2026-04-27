@@ -8,9 +8,9 @@ export default function Counter() {
 
   return (
     <Card className='border-border bg-secondary w-72 border shadow-md'>
-      <CardHeader className='flex flex-col'>
+      <CardHeader className='flex flex-col items-start'>
         <h1 className='text-2xl'>Vite React TypeScript</h1>
-        <h2 className='text-lg'>with HeroUI</h2>
+        <h2 className='text-muted-foreground text-lg'>with HeroUI</h2>
       </CardHeader>
       <CardBody className='flex w-full flex-row items-center justify-between'>
         <Button
