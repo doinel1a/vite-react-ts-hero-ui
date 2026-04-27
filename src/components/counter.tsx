@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import { Button } from '@heroui/button';
 import { Card, CardBody, CardHeader } from '@heroui/card';

@@ -1,9 +1,8 @@
-import config from '_config';
 import test, { expect } from '@playwright/test';
 
 test.describe('Test counter', () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto(`http://${config.server.host}:${config.server.port}`);
+    await page.goto('/');
   });
 
   test('It should start count at zero', async ({ page }) => {
